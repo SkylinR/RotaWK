@@ -8,10 +8,10 @@ class Navbar extends Component {
         return (
             <div className="Navbar">
                     <ul className="nav justify-content-center">
-                        <li id="nav-home" className="nav-item"><Link to="/"><a className="nav-link">Home</a></Link></li>
-                        <li id="nav-first" className="nav-item"><Link to="/First"><a className="nav-link">First</a></Link></li>
-                        <li id="nav-second" className="nav-item"><Link to="/Second"><a className="nav-link">Second</a></Link></li>
-                        <li id="nav-third" className="nav-item"><Link to="/Third"><a className="nav-link">Third</a></Link></li>
+                        <li id="nav-home" className="nav-item"><Link to="/"><span className="nav-link">Home</span></Link></li>
+                        <li id="nav-first" className="nav-item"><Link to="/First"><span className="nav-link">First</span></Link></li>
+                        <li id="nav-second" className="nav-item"><Link to="/Second"><span className="nav-link">Second</span></Link></li>
+                        <li id="nav-third" className="nav-item"><Link to="/Third"><span className="nav-link">Third</span></Link></li>
                     </ul>
             </div>
         );
